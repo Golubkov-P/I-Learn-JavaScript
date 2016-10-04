@@ -125,7 +125,6 @@ function deepEqual(object1, object2) {
 	function isDate(val1, val2) {
 		return val1 instanceof Date && val2 instanceof Date;
 	}
-
 }
 
 var objA = {

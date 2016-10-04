@@ -2,12 +2,14 @@
 
 >написать модуль, который экспортирует аналоги методов для работы с массивами:
 >forEach, filter, map, slice, reduce, splice  пример:
+
 ```javascript
 let array = [1, 2, 3, 4, 5, 6];
 forEach(array, item => console.log(item));
 let greaterThan4 = filter(array, item => item > 4);
 let sqare = map(array, item => item*item);
 ```
+
 >Описание того, как работают эти методы, есть на Mozilla Developer Network и в бесплатных видеоуроках LoftBlog/LoftSchool.
 >     
 >Реализация функции splice является задачей со звездочкой.
@@ -33,6 +35,7 @@ let sqare = map(array, item => item*item);
 >Если оба объекта имеют одинаковые свойства и их значения, значит оба объекта идентичны.
 >
 >Посмотрите на примеры того, как должна работать фиункция deepEqual:
+
 ```javascript
 var objA = {
     prop1: 'value1',
