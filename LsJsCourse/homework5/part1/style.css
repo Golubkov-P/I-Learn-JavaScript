@@ -1,0 +1,49 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #e8e8e8;
+}
+
+#accordeon {
+	width: 500px;
+  position: absolute;
+  top 50%;
+}
+
+.accordeon__item {
+	width: 100%;
+	background-color: #fff;
+}
+
+.accordeon__item-title {
+	width: 100%;
+	height: 50px;
+	background-color: #ed2525;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.accordeon__item-content {
+	width: 100%;
+	color: #333333;
+	font-size: 16px;
+	text-align: left;
+	padding: 10px;
+	box-sizing: border-box;
+	display: none;
+}
+
+.active > .accordeon__item-title {
+  background-color: #b70e0e;
+}
+
+.active > .accordeon__item-content {
+  display: block;
+}

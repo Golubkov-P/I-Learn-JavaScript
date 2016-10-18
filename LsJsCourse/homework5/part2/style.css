@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+#root {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#root > div {
+	position: absolute;
+}
+
+#add {
+	height: 50px;
+	background-color: #3b57a5;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	margin: 10px 0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99999;
+}
+
+#add:hover {
+	background-color: #021f89;
+}
